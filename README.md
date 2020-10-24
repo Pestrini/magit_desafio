@@ -9,9 +9,9 @@
   <br>
   Desenvolvido pelos alunos:
   <br>
-  Diego Daniel Torini - 832056
-  Gabriel Henrique Pereira Pestrini - 828420
-  Guilherme Martins Ferreira - 831963
+  Diego Daniel Torini - 832056<br>
+  Gabriel Henrique Pereira Pestrini - 828420<br>
+  Guilherme Martins Ferreira - 831963<br>
   Natan Laci Dutra Araujo - 828177
   <br>
 </p>
