@@ -12,6 +12,6 @@
   Diego Daniel Torini - 832056
   Gabriel Henrique Pereira Pestrini - 828420
   Guilherme Martins Ferreira - 831963
-  Natan Laci Dutra - 828177
+  Natan Laci Dutra Araujo - 828177
   <br>
 </p>
