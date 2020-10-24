@@ -1,0 +1,106 @@
+
+.top{
+    margin-top: 10%;
+}
+.left{
+    margin-left: 20%;
+}
+
+.linha{
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+form{
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* dashboard e configurações*/
+.main{
+    width: 98.8%;
+}
+.menu_lateral{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    border-right: 2px solid rgba(189, 185, 185, 0.2);
+    min-height: 90vh;
+}
+.link-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+.logo{
+    width: 40px;
+}
+.rounded{
+    width: 250px;
+}
+
+.graficos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+.grafico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+.btn-grafico{
+    background:none;
+    border: none;
+    cursor: none;
+}
+.legenda{
+    margin: 20px 0;
+    padding: 20px;
+    background-color:rgb(232 227 227);
+    width: 100%;
+    border-radius: 70px;
+}
+.planilha{
+    margin-top: 20px;
+    width: 100%;
+}
+.grafico-barra img{
+    width: 99%;
+}
+.col-sm{
+    text-align: center;
+}
+.conf{
+    width: 80%;
+    margin: 40px auto;
+}
+.lista{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.item_list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px 30px;
+}
+
+.remove{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
