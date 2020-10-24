@@ -6,7 +6,7 @@
 
 <p align="center">
   Sistema Criado para empresa MAGIT como projeto avaliativo da Universidade de Ribeirão Preto (UNAERP).
-  <br>
+  <br><br>
   Desenvolvido pelos alunos:
   <br>
   Diego Daniel Torini - 832056<br>
