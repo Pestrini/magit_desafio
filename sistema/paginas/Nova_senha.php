@@ -16,11 +16,11 @@
 <body>
     <section class="token">
         <form  method="post">
-            <h3>Atualizar Sua Senha</h3>
-            <label>Insira Sua Nova Senha</label>
+            <h3>Atualize sua senha</h3>
+            <label>Insira sua nova senha</label>
             <input type="password" name="nova_senha" class="form-control">
             <code>Volte para o Login e Acesse Novamente!</code><br><br>
-            <input type="submit" value="ALterar Senha" class="btn btn-outline-success btn-lg btn-block">
+            <input type="submit" value="Alterar Senha" class="btn btn-outline-success btn-lg btn-block">
             <a href="http://localhost/sistema/paginas/login.php" target="_blank">Voltar para o Login</a>
             <input type="hidden" name="env" value="form">
         </form>

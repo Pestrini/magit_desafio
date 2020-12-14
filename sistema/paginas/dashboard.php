@@ -83,7 +83,7 @@
 
                                     </tr>
                                     <tr>
-                                        <th scope="row">Valor por MSM</th>
+                                        <th scope="row">Valor por SMS</th>
                                         <td>R$ 0,10</td>
 
                                     </tr>
@@ -94,7 +94,7 @@
                         <canvas id="myChartMSM" width="500" height="400"></canvas>
                         </div>
                         <div class="legenda">
-                            <b class="col-sm text-primary">Uso Médio Diario de MSM - </b>
+                            <b class="col-sm text-primary">Uso Médio Diario de SMS - </b>
                             <b class="col-sm text-primary" id="usoMSM"></b>
                         </div>
                     </div>

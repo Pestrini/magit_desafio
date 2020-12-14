@@ -15,8 +15,8 @@
 <body>
     <section class="token">
        <h2>Email Enviado Com Sucesso!!</h2><br><br>
-       <P>Verifique seu sua Caixa de Email Para fazer poder alterar sua senha! em 15 minutos os token se tornará invalido para a alteração!</P>
-       <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" > ir para o Email aqui</a>
+       <P>Verifique sua Caixa de E-mail para alterar sua senha! em 15 minutos essa solicitação expirará!</P>
+       <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" > Ir para o Gmail</a>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

@@ -25,12 +25,12 @@
             <section class="col">
                 <form action="../db/logar.php" method="post">
                     <div class="form-group">
-                        <label for="validationServer01">Usuario</label>
+                        <label for="validationServer01">Usuário</label>
                         <input type="text" name='usuario' class="form-control  
                     <?php if(isset( $_SESSION['user_nao_autenticado'])):?> is-invalid <?php endif; unset( $_SESSION['user_nao_autenticado']); ?>" 
                             id="validationServer01" aria-describedby="emailHelp">
                         <div class="invalid-feedback" id="e-inc">
-                            Usuario Incorreto.
+                            Usuário Incorreto.
                         </div>
                     </div>
                     <div class="form-group">
@@ -46,9 +46,9 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Lembre-se de mim</label>
                     </div>
-                    <a class="left" href="token_envio.php">esqueci a senha</a>
+                    <a class="left" href="token_envio.php">Redefinir Senha</a>
                     <div>
-                        <button type="submit" class="btn btn-primary">entrar</button>
+                        <button type="submit" class="btn btn-primary">ENTRAR</button>
                     </div>
                 </form>
             </section>

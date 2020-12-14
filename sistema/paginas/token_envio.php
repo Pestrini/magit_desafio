@@ -16,11 +16,11 @@
     <section class="token">
         <form  method="post">
             <h3>Recuperar Senha</h3>
-            <label>Insira o Email Cadastrado</label>
+            <label>Insira o E-mail Cadastrado</label>
             <input type="email" name="email" class="form-control" required />
-            <code>acesse seu email para recuperar a senha!</code><br><br>
-            <input type="submit" value="Enviar Solcitiação no Email" class="btn btn-outline-success btn-lg btn-block">
-            <a href="http://localhost/sistema/paginas/login.php" target="_blank">Voltar para o Login</a>
+            <code>Acesse seu e-mail para recuperar sua senha!</code><br><br>
+            <input type="submit" value="Enviar Solicitação no E-mail" class="btn btn-outline-success btn-lg btn-block">
+            <a href="http://localhost/sistema/paginas/login.php" target="_blank">Voltar para a tela de login</a>
             <input type="hidden" name="env" value="form">
         </form>
         <?php require('../db/functions_rec_senha.php');
