@@ -1,3 +1,5 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,7 +15,6 @@
 </head>
 
 <body>
-
     <main class="main">
         <div class="row">
             <section class="col-2 menu_lateral">
@@ -28,7 +29,7 @@
                     </div>
                     <div class="link-menu">
                         <img class="logo" src="../images/sair.png" alt="">
-                        <a class="nav-link" href="login.php">Sair</a>
+                        <a class="nav-link" href='../db/logout.php'>Sair</a>
                     </div>
                 </nav>
             </section>

@@ -28,7 +28,7 @@
                     </div>
                     <div class="link-menu">
                         <img class="logo" src="../images/sair.png" alt="">
-                        <a class="nav-link" href="login.php">Sair</a>
+                        <a class="nav-link" href='../db/logout.php'>Sair</a>
                     </div>
                 </nav>
             </section>

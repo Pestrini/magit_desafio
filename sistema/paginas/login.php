@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -20,33 +23,38 @@
                     class="img-fluid" alt="Responsive image">
             </section>
             <section class="col">
-                <div class="form-group">
-                    <label for="validationServer01">Usuario</label>
-                    <input type="email" class="form-control " id="validationServer01" aria-describedby="emailHelp">
-                    <div class="invalid-feedback" id="e-inc">
-                        Usuario Incorreto.
+                <form action="../db/logar.php" method="post">
+                    <div class="form-group">
+                        <label for="validationServer01">Usuario</label>
+                        <input type="text" name='usuario' class="form-control  
+                    <?php if(isset( $_SESSION['user_nao_autenticado'])):?> is-invalid <?php endif; unset( $_SESSION['user_nao_autenticado']); ?>" 
+                            id="validationServer01" aria-describedby="emailHelp">
+                        <div class="invalid-feedback" id="e-inc">
+                            Usuario Incorreto.
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="validationServer02">Senha</label>
-                    <input type="password" class="form-control" id="validationServer02">
-                    <div class="invalid-feedback">
-                        Senha Incorreta.
+                    <div class="form-group">
+                        <label for="validationServer02">Senha</label>
+                        <input type="password" name="senha" class="form-control  
+                    <?php if(isset( $_SESSION['pess_nao_autenticado'])):?> is-invalid <?php endif; unset( $_SESSION['ess_nao_autenticado']); ?>"  
+                             id="validationServer02">
+                        <div class="invalid-feedback">
+                            Senha Incorreta.
+                        </div>
                     </div>
-                </div>
-                <div class="form-group form-check-inline">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Lembre-se de mim</label>
-                </div>
-                <a class="left" href="token_envio.php">esqueci a senha</a>
-                <div>
-                    <button type="submit" class="btn btn-primary" onclick="login()">entrar</button>
-                </div>
+                    <div class="form-group form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Lembre-se de mim</label>
+                    </div>
+                    <a class="left" href="token_envio.php">esqueci a senha</a>
+                    <div>
+                        <button type="submit" class="btn btn-primary">entrar</button>
+                    </div>
+                </form>
             </section>
         </div>
     </main>
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
-    <script src="../script/login.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
