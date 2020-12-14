@@ -98,6 +98,12 @@ form{
     display: none;
 }
 
+.token{
+ width: min(500px, 100%);
+ margin:10vw auto;
+
+}
+
 @media (max-width: 800px) {
     .row{
         display: flex;
